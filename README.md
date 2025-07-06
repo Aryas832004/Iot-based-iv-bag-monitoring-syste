@@ -1,87 +1,80 @@
-# Iot-based-iv-bag-monitoring-syste
-Real-time monitoring of medicines inside intravenous fluid bag 
 # 💧 IoT IV Bag Monitoring System
 
-An Internet of Things (IoT)–based smart healthcare project designed to **monitor the fluid level in IV bags** in real time using **ESP8266**, **Load Cell**, **HX711**, and the **Blynk app**. The system aims to prevent IV fluid overflow or empty bag situations by sending timely alerts to caregivers or nurses.
+An Internet of Things (IoT)–based smart healthcare project designed to **monitor the fluid level in IV bags** in real time using **ESP8266**, **Load Cell**, **HX711**, and the **Blynk app**. The system helps prevent fluid overflow or empty IV bags by sending alerts to caregivers through mobile notifications.
 
 ---
 
 ## 🔧 Technologies & Components Used
 
-- **ESP8266 NodeMCU** – for Wi-Fi connectivity and microcontroller logic
-- **Load Cell** – to measure the weight of the IV fluid
-- **HX711 Amplifier** – to amplify the signal from the Load Cell
-- **PCF8574 I/O Expander** – (if used for extending pins)
-- **Blynk App** – for real-time monitoring and mobile notifications
-- **Arduino IDE** – for programming the ESP8266 (C/C++)
+- **ESP8266 NodeMCU** – Wi-Fi microcontroller
+- **Load Cell** – for weight sensing
+- **HX711 Amplifier** – signal amplification for Load Cell
+- **PCF8574 I/O Expander** *(if used)*
+- **Blynk App** – real-time data visualization & alerts
+- **Arduino IDE** – code development (C/C++)
 
 ---
 
 ## ⚙️ Features
 
-- 📶 Real-time fluid level updates via Blynk app  
-- 🔔 Sends alerts when IV bag is nearly empty  
-- 🔋 Low power consumption  
-- 🧠 Simple, scalable design for hospitals or home care
+- 📶 Real-time fluid level tracking via Blynk
+- 🔔 Instant notifications for low fluid levels
+- 🧠 Lightweight & scalable for hospitals or home care
 
 ---
+
+## 🛠️ Circuit Diagram
+
+> 🔽 **Download/View Diagram**  
+> ![Circuit Diagram](![hardware_design](https://github.com/user-attachments/assets/63c13995-4453-4198-816c-f7edde0fa7f6)
+)  
+> 
 
 ## 🚀 Getting Started
 
-### Hardware Setup
-1. Connect the **Load Cell** to the **HX711 amplifier**.
-2. Connect HX711 to **ESP8266** using `D2` and `D3` (or your preferred pins).
-3. Use Blynk mobile app to create a new project and get your **Auth Token**.
-4. Power up the NodeMCU and upload the Arduino sketch.
+### ✅ Hardware Setup
+1. Connect the Load Cell to HX711 module.
+2. Connect HX711 to NodeMCU using GPIO (e.g., D2 & D3).
+3. Power the circuit using USB or external source.
+4. Upload code from Arduino IDE (include Blynk Auth Token).
 
-### Software Setup
-- Install the following libraries in Arduino IDE:
-  - `HX711`
-  - `Blynk`
-  - `ESP8266WiFi`
-
----
-
-## 🔌 Circuit Diagram
-
-*You can add a Fritzing diagram or an image here for clarity.*
+### ✅ Software Setup
+- Libraries needed:
+  - `HX711.h`
+  - `BlynkSimpleEsp8266.h`
+  - `ESP8266WiFi.h`
+- Create a project in **Blynk** and get the Auth Token.
 
 ---
 
 ## 📲 Blynk Dashboard
-- Value Display widget for weight
-- Notification widget for alerts
-- Auth Token pasted into code
+
+- **Value Display** for weight monitoring
+- **Notification Widget** for alerts
+- **Auth Token** pasted into Arduino code
 
 ---
 
-## 🧠 Future Improvements
-- Add automatic IV flow control
-- Integrate with hospital management system
-- Add local display (OLED or LCD)
+## 🌱 Future Improvements
+
+- Automatic IV flow control
+- Local alert system with buzzer
+- OLED display integration
+- Integration with hospital data platforms
 
 ---
 
 ## 👨‍💻 Developed By
 
-**[Your Name]**  
-Final-Year Electronics and Communication Engineering Student (Graduating 2026)  
-Passionate about **IoT, Python, and Embedded Systems**  
-📫 [Add your email or LinkedIn link here]
+**[Arya Sasikumar]**  
+Final-Year Electronics and Communication Engineering Student (ECE ‘26)  
+Interested in **IoT, Python, Embedded Systems, and Real-Time Smart Devices**
+
+📫 [Add your LinkedIn, email, or portfolio]
 
 ---
 
-## 📌 License
+## ⚠️ License
 
-This project is open-source and free to use under the [MIT License](LICENSE).
-
-
----
-
-✅ Next Step:
-
-You can copy this into a file called README.md in your project folder. Then run:
-
-git add README.md
-git commit -m "Added professional README"
-git push
+This project is shared **without any license**.  
+Use it for educational purposes or personal learning only.  
