@@ -26,7 +26,7 @@ An Internet of Things (IoT)–based smart healthcare project designed to **monit
 ## 🛠️ Circuit Diagram
 
 > 🔽 **Download/View Diagram**  
-> ![Circuit Diagram](![hardware_design](https://github.com/user-attachments/assets/63c13995-4453-4198-816c-f7edde0fa7f6)
+> ![Circuit Diagram](s6 project/hardware_design.jpg)
 )  
 > 
 
