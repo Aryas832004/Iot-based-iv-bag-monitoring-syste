@@ -9,9 +9,9 @@ An Internet of Things (IoT)–based smart healthcare project designed to **monit
 - **ESP8266 NodeMCU** – Wi-Fi microcontroller
 - **Load Cell** – for weight sensing
 - **HX711 Amplifier** – signal amplification for Load Cell
-- **PCF8574 I/O Expander** *(if used)*
+- **PCF8574 I/O Expander** 
 - **Blynk App** – real-time data visualization & alerts
-- **Arduino IDE** – code development (C/C++)
+- **Arduino IDE** – code development 
 
 ---
 
@@ -70,7 +70,7 @@ An Internet of Things (IoT)–based smart healthcare project designed to **monit
 Final-Year Electronics and Communication Engineering Student (ECE ‘26)  
 Interested in **IoT, Python, Embedded Systems, and Real-Time Smart Devices**
 
-📫 [Add your LinkedIn, email, or portfolio]
+📫 [www.linkedin.com/in/arya-sasikumar]
 
 ---
 
